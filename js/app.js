@@ -519,6 +519,7 @@
     function documentLoaded() {
         const headerTitle = document.querySelector(".main-page__title");
         if (headerTitle) {
+            headerTitle.style.opacity = "1";
             const paragraphs = headerTitle.querySelectorAll("p");
             if (paragraphs.length) {
                 let BASIS_DELAY = 100, delay = BASIS_DELAY;
